@@ -1,0 +1,50 @@
+{
+  "schema_version": "event_brief.v1",
+  "event": {
+    "title": "Fictional offline test",
+    "date": "2026-10-10",
+    "location": "Fixture",
+    "host": "Fixture"
+  },
+  "video_intake": {
+    "validation_state": "not_available",
+    "frames": [],
+    "limitation": "Fictional fixture; no video supplied"
+  },
+  "name_exclusions": [],
+  "people": [
+    {
+      "name": "Taylor Example",
+      "visual_confidence": null,
+      "identity_status": "confirmed",
+      "research_attempts": [
+        {
+          "route": "fictional fixture",
+          "query_or_note": "No real research performed"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "s1",
+          "title": "Fictional profile",
+          "url": "https://example.com/profile",
+          "source_type": "fixture",
+          "retrieved_at": "2026-10-10"
+        }
+      ],
+      "claims": {
+        "current_role": {
+          "title": "Product Lead",
+          "organization": "Example Research Studio",
+          "source_ids": [
+            "s1"
+          ]
+        }
+      },
+      "portrait": {
+        "state": "not_requested"
+      }
+    }
+  ],
+  "fixture_notice": "Fictional demonstration. People, sources and claims are invented."
+}
